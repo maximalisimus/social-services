@@ -44,7 +44,7 @@ Date of creation: **17.02.2023**
 
 Отчётность по социальным услугам, состоящая из 2 файлов - исходные данные и результаты. Отчётный период - любой. Например, месяц, квартал, год или другой.
 
-![Windows-7](./image/win-7-icon.svg "Windows 7") ![Windows-10](./image/win-10-icon.svg "Windows 10")![Windows-11](./image/win-11-icon.svg "Windows 11") ![MS Excel 2013](./image/ms-excel.svg "Excel") ![Power Query](./image/power-query.svg "Power-Query") ![Visual Basic](./image/visual-basic.svg "VB")
+![Windows-7](./image/win-7-icon.svg "Windows 7") ![Windows-10](./image/win-10-icon.svg "Windows 10") ![Windows-11](./image/win-11-icon.svg "Windows 11") ![MS Excel 2013](./image/ms-excel.svg "Excel") ![Power Query](./image/power-query.svg "Power-Query") ![Visual Basic](./image/visual-basic.svg "VB")
 
 Программа предназначена только для **ОС Windows**. Для релизации использован пакет **MS Excel 2013** и старше.
 
