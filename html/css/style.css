@@ -1,0 +1,387 @@
+@charset "UTF-8";
+@import "./font-awesome-4.0.3.css";
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* Ошибки */
+.checkerror {
+	display: inline-block;
+	position: relative;
+	margin: 0px 0px 10px 0px;
+	padding: 0px; 
+}
+.checkerror table.tableerror {
+	display: inline-block;
+	position: relative;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+	border: 2px solid #ccc;
+	border-spacing: 0px 0px;
+}
+.checkerror table.tableerror thead tr th, 
+.checkerror table.tableerror tbody tr td {
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 5px;
+}
+.checkerror table.tableerror tbody tr td {
+	color: #000000;
+	font-weight: normal;
+}
+/* Ошибки */
+/* Периоды */
+.duration {
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+	/* Time Tabnle */
+.duration table.time {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	padding: 0px;
+	border: 2px solid #ccc;
+	border-spacing: 0px 0px;
+}
+.duration table.time caption {
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	background: #4F81BD;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+.duration table.time thead tr th, 
+.duration table.time tbody tr td {
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 5px;
+}
+.duration table.time tbody tr td {
+	color: #cc0000;
+	font-weight: normal;
+}
+	/* Time Tabnle */
+/* Периоды */
+/* Общие услуги и общие итоги */
+	/* general Table */
+table.general {
+	display: inline-block;
+	position: relative;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+	width: auto;
+	border-spacing: 0px 0px;
+	border: 2px solid #ccc;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+table.general.secondary {
+	margin: 0px 10px 10px 0px;
+	white-space: nowrap;
+}
+table.nosidelka {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 1355px;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+	width: auto;
+	border-spacing: 0px 0px;
+	border: 2px solid #ccc;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+table.thecondary {
+	display: inline-block;
+	position: absolute;
+	top: 118px;
+	left: 424px;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+	width: auto;
+	border-spacing: 0px 0px;
+	border: 2px solid #ccc;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+table.sidelka {
+	display: inline-block;
+	position: absolute;
+	top: 0px; 
+	left: 1140px;
+	margin: 0px 10px 10px 0px;
+	padding: 0px;
+	width: auto;
+	border-spacing: 0px 0px;
+	border: 2px solid #ccc;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+table.nosidelka caption,
+table.thecondary caption,
+table.sidelka caption,
+table.general caption {
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	border-spacing: 0px 0px;
+	border: 1px solid #ccc;
+}
+table.nosidelka thead tr th,
+table.nosidelka tbody tr td,
+table.thecondary thead tr th,
+table.thecondary tbody tr td,
+table.sidelka thead tr th,
+table.sidelka tbody tr td {
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 0px;
+}
+table.general thead tr th, 
+table.general tbody tr td {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+table.sidelka thead tr th,
+table.nosidelka thead tr th,
+table.thecondary thead tr th,
+table.thecondary tbody tr,
+table.nosidelka tbody tr:last-child,
+table.general tbody tr:last-child{
+	font-weight: bold;
+}
+table.nosidelka tbody tr td,
+table.general tbody tr td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 10px 5px 10px;
+}
+table.nosidelka tbody tr td:first-child,
+table.general tbody tr td:first-child {
+	text-align: left;
+	vertical-align: middle;
+}
+table.nosidelka tbody tr td.noalign,
+table.general.secondary tbody tr td.noalign {
+	text-align: center;
+	vertical-align: middle;
+}
+	/* general Table */
+/* Общие услуги и общие итоги */
+/* Кнопки управления сводной таблицей, навигация */
+	/* button-13, button-14 */
+.button-13, .button-14 {
+	background-color: #fff;
+	border: 1px solid #d5d9d9;
+	border-radius: 8px;
+	box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-webkit-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-ms-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-moz-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-o-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	color: #0f1111;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Amazon Ember",sans-serif;
+	font-size: 13px;
+	line-height: 29px;
+	padding: 0 10px 0 11px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	touch-action: manipulation;
+	width: auto;
+	margin: 0px 0px 15px 10px;
+}
+.button-13:hover,.button-14:hover {
+	background-color: #f7fafa;
+}
+.button-13:active, .button-14:active,
+#dddivheader img.filtering:active,
+div#dddiv div.worker ul.social li:active,
+#lldivheader img.register:active,
+div#lldiv div.rworker ul.rsocial  li:active {
+	transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	-moz-transform: scale(0.98);
+	-o-transform: scale(0.98);
+	/* Scaling button to 0.98 to its original size */ 
+	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	-webkit-box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	-ms-box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	-moz-box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	-o-box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	/* Lowering the shadow */
+}
+.button-13:focus, .button-14:focus,
+#dddivheader img.filtering:focus,
+#lldivheader img.register:focus {
+	border-color: #008296;
+	box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-webkit-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-ms-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-moz-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	-o-box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	outline: 0;
+}
+	/* button-13, button-14 */
+/* Кнопки управления сводной таблицей, навигация */
+/* Фильтры */
+	/* Drag and Drop */
+div#lldiv {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	border: 1px solid #4F81BD;
+	top: 11%;
+	left: 74%;
+	max-height: 200px;
+	min-width: 150px;
+	background-color: white;
+	color: black;
+	overflow: auto;
+}
+div#dddiv {
+	display: block;
+	position: absolute;
+	z-index: 9;
+	border: 1px solid #4F81BD;
+	top: 11%;
+	left: 48%;
+	max-height: 200px;
+	min-width: 200px;
+	background-color: white;
+	color: black;
+	overflow: auto;
+}
+#dddivheader, #lldivheader {
+	display: block;
+	padding: 10px;
+	margin: 0px 0px 10px 0px;
+	cursor: move;
+	z-index: 10;
+	border-bottom: 1px solid #4F81BD;
+	max-width: 320px;
+}
+#dddivheader p, #lldivheader p {
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+#dddivheader img.filtering,
+#lldivheader img.register {
+	display: inline-block;
+	width: 9%;
+	float: right;
+	margin: 0px 0px 5px 0px;
+	padding: 5px 5px 5px 5px;
+}
+#dddivheader img.no-filtering,
+#lldivheader img.no-register {
+	display: inline-block;
+	width: 9%;
+	float: right;
+	margin: 0px 0px 5px 0px;
+	padding: 5px 5px 5px 5px;
+}
+#dddivheader img.filtering:hover,
+#lldivheader img.register:hover {
+	background: linear-gradient(#F8E269, #FCF6D9);
+	background: -webkit-linear-gradient(#F8E269, #FCF6D9);
+	background: -ms-linear-gradient(#F8E269, #FCF6D9);
+	background: -moz-linear-gradient(#F8E269, #FCF6D9);
+	background: -o-linear-gradient(#F8E269, #FCF6D9);
+	transition: opacity 0.5s linear;
+	-webkit-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	border: 1px solid #4F81BD;
+}
+div#dddiv div.worker,
+div#lldiv div.rworker {
+	display: block;
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	vertical-align: middle;
+}
+div#dddiv div.worker ul.social,
+div#lldiv div.rworker ul.rsocial {
+	display: block;
+	width: 100%;
+}
+div#dddiv div.worker ul.social li,
+div#lldiv div.rworker ul.rsocial  li {
+	display: block;
+	margin: 0px 10px 5px 5px;
+	padding: 5px 5px 5px 10px;
+	background-color: #B8CCE4;
+	border: 1px solid #4F81BD;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+div#dddiv div.worker ul.social li:hover,
+div#dddiv div.worker ul.social li.checked,
+div#lldiv div.rworker ul.rsocial li:hover,
+div#lldiv div.rworker ul.rsocial li.onselect {
+	background: linear-gradient(#F8E269, #FCF6D9);
+	background: -webkit-linear-gradient(#F8E269, #FCF6D9);
+	background: -ms-linear-gradient(#F8E269, #FCF6D9);
+	background: -moz-linear-gradient(#F8E269, #FCF6D9);
+	background: -o-linear-gradient(#F8E269, #FCF6D9);
+	transition: opacity 0.5s linear;
+	-webkit-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+}
+div#dddiv div.worker ul.social li.notchecked,
+div#lldiv div.rworker ul.rsocial li.ondeselect {
+	background-color: white;
+}
+	/* Drag and Drop */
+/* Фильтры */
+/* Специальные стили управления */
+	/* Close */
+.close, .ext-close {
+	display: none;
+}
+.nth-close {
+	display: none !important;
+}
+	/* Close */
+/* Специальные стили управления */

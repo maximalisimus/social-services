@@ -1,0 +1,165 @@
+/* Основные настройки сводной таблицы */
+table.table.table-bordered.tree-basic {
+	margin: 0px 10px 10px 10px;
+	border: 3px solid #ccc;
+}
+/* Выравнивание заголовка №1 */
+table.table.table-bordered.tree-basic thead tr th:nth-child(1) {
+	text-align: left;
+	vertical-align: bottom;
+}
+/* Выравнивание заголовка №2 */
+table.table.table-bordered.tree-basic thead tr th:nth-child(2) {
+	text-align: left;
+	vertical-align: bottom;
+}
+/* Выравнивание заголовка №3 */
+table.table.table-bordered.tree-basic thead tr th:nth-child(3) {
+	text-align: center;
+	vertical-align: bottom;
+}
+/* Настройки заголовка №4 */
+table.table.table-bordered.tree-basic thead tr th:nth-child(4) {
+	transform:scale(-1);
+	writing-mode:tb-rl;
+	filter:flipH flipV;
+	-webkit-transform:scale(-1);
+	-ms-transform:scale(-1);
+	-moz-transform:scale(-1);
+	-o-transform:scale(-1);
+	-webkit-writing-mode:tb-rl;
+	-ms-writing-mode:tb-rl;
+	-moz-writing-mode:tb-rl;
+	-o-writing-mode:tb-rl;
+	-webkit-filter:flipH flipV;
+	-ms-filter:flipH flipV;
+	-moz-filter:flipH flipV;
+	-o-filter:flipH flipV;
+	word-break: normal;
+	text-align: left;
+	vertical-align: top;
+	height: 200px;
+}
+/* Выравнивание заголовка №5 */
+table.table.table-bordered.tree-basic thead tr th:nth-child(5) {
+	text-align: center;
+	vertical-align: bottom;
+}
+/* Настройки остальных заголовков */
+table.table.table-bordered.tree-basic thead tr th:nth-child(n+6) {
+	transform:scale(-1);
+	writing-mode:tb-rl;
+	filter:flipH flipV;
+	-webkit-transform:scale(-1);
+	-ms-transform:scale(-1);
+	-moz-transform:scale(-1);
+	-o-transform:scale(-1);
+	-webkit-writing-mode:tb-rl;
+	-ms-writing-mode:tb-rl;
+	-moz-writing-mode:tb-rl;
+	-o-writing-mode:tb-rl;
+	-webkit-filter:flipH flipV;
+	-ms-filter:flipH flipV;
+	-moz-filter:flipH flipV;
+	-o-filter:flipH flipV;
+	word-break: normal;
+	text-align: left;
+	vertical-align: top;
+	height: 200px;
+}
+/* Настройки строк */
+table.table.table-bordered.tree-basic tbody tr.total {
+	font-weight: bold;
+	background: #d4d4d4 !important;
+}
+/* Настройка итогов */
+table.table.table-bordered.tree-basic tbody tr.total:hover {
+	background: none !important;
+	border: #d4d4d4 !important;
+}
+/* Настройка ячеек и наведения мышки на них */
+table.table.table-bordered.tree-basic tbody tr.total td,
+table.table.table-bordered.tree-basic tbody tr.total td:hover {
+	text-align: center;
+	vertical-align: middle;
+	background: #d4d4d4 !important;
+	border: 1px solid #ccc !important;
+}
+/* Специальная настройка ячеек итогов */
+table.table.table-bordered.tree-basic tbody tr.total td:nth-child(1),
+table.table.table-bordered.tree-basic tbody tr.total td:nth-child(2),
+table.table.table-bordered.tree-basic tbody tr.total td:nth-child(2):hover {
+	text-align: left;
+	vertical-align: middle;
+}
+/* Развернутые ячейки строк */
+.expanded, .expanded td {
+	background: #b3b3b3 !important;
+	border: none !important;
+	white-space: nowrap;
+}
+/* Настройка ячеек и строки при наведении мышки */
+table.table.table-bordered.tree-basic tbody tr:hover td:nth-child(n) {
+	background: #fffabe;
+}
+/* Настройка ячеек и строки при наведении мышки №1 */
+table.table.table-bordered.tree-basic tbody tr td:nth-child(1) {
+	white-space: nowrap;
+}
+/* Настройка ячеек и строки при наведении мышки №2 */
+table.table.table-bordered.tree-basic tbody tr td:nth-child(2) {
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: middle;
+}
+/* Настройка ячеек и строки при наведении мышки остальных */
+table.table.table-bordered.tree-basic tbody tr td:nth-child(n+3) {
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+}
+/* Отдельная настрока поведения ячеек при наведении мышки */
+table.table.table-bordered.tree-basic tbody tr td:hover {
+	border: 2px solid orange;
+	background: #fffabe;
+	transition:
+		background 0.5s ease-in,
+		border-top-color 0.15s linear,
+		border-right-color 0.10s linear 0.20s,
+		border-bottom-color 0.10s linear 0.25s;
+	-webkit-transition:
+		background 0.5s ease-in,
+		border-top-color 0.15s linear,
+		border-right-color 0.10s linear 0.20s,
+		border-bottom-color 0.10s linear 0.25s;
+	-ms-transition:
+		background 0.5s ease-in,
+		border-top-color 0.15s linear,
+		border-right-color 0.10s linear 0.20s,
+		border-bottom-color 0.10s linear 0.25s;
+	-moz-transition:
+		background 0.5s ease-in,
+		border-top-color 0.15s linear,
+		border-right-color 0.10s linear 0.20s,
+		border-bottom-color 0.10s linear 0.25s;
+	-o-transition:
+		background 0.5s ease-in,
+		border-top-color 0.15s linear,
+		border-right-color 0.10s linear 0.20s,
+		border-bottom-color 0.10s linear 0.25s;
+}
+/* Полосатые столбцы */
+table.table.table-bordered.tree-basic tbody tr td:nth-child(even){
+	background: #eee;
+}
+/* Полосатые столбцы */
+table.table.table-bordered.tree-basic tbody tr td:nth-child(even){
+	background: #fffabe;
+}
+/* Выделенная строка */
+.selectable, .selectable td:nth-child(even), .selectable td:nth-child(n) {
+	background: #ffeccc !important;
+}
+.selecttd {
+	border: 2px solid orange !important;
+}
